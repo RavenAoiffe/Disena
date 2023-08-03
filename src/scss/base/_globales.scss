@@ -1,0 +1,80 @@
+html{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+  }
+  *{
+      font-family:$fuentePrincipal;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  p,h1,h2,h3,h4,h5{margin:0;}
+
+  body{
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      background: $bg-color;
+      overflow-x: hidden;
+  }
+  a{
+    word-break:break-word;
+  }
+  .container{
+      width: 80%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      display: table;
+      position: relative;
+  }
+  img{width:100%;}
+
+  .section {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+b{
+  i{
+    font-weight: 900;
+  }
+}
+img{
+    width: 100%;
+}
+.secciones{
+  padding: 8rem 0;
+}
+.ttl{
+  @include tablet{
+    max-width: 300px;
+  }
+  h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+  }
+}
+
+
+
+.display-grid{
+  display: grid;  
+  grid-template-columns: repeat(2, 1fr);
+  @include tablet{
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+ul{
+  list-style: none;
+  padding:0;
+  margin: 0;
+}

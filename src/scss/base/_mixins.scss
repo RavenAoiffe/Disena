@@ -1,0 +1,46 @@
+/**Media Queries **/
+
+@mixin telefono{
+    @media (max-width: $telefono){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media (max-width: $tablet){
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media (max-width: $desktop){
+        @content;
+    }
+}
+
+@mixin large_desktop{
+    @media (max-width: $large_desktop){
+        @content;
+    }
+}
+
+
+
+@mixin color($c){
+    color:$c;
+}
+
+@mixin bg($bg){
+    background-color:$bg;
+}
+@mixin medium(){
+    font-weight: 500;
+}
+
+@mixin light(){
+    font-weight: 100;
+}
+
+@mixin medium-light(){
+    font-weight: 300;
+}

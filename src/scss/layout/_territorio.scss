@@ -1,0 +1,14 @@
+
+#territorio{   
+    .display-grid{
+        > div:nth-child(2){
+            background-color: $bg-color-lighten-op2;;
+        }
+         >div:nth-child(1){
+            background-color: $bg-color-lighten;
+        } 
+    }
+    h5,ul,li{
+        font-weight: 600;
+    }
+}   

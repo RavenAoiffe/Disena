@@ -1,0 +1,119 @@
+.flex{
+    display: flex;
+    @include tablet{
+        flex-direction: column;
+    }
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.rojo-color{
+    @include color($rojo);
+}
+.rojo-bg{
+    @include bg($rojo);
+}
+.rosa-color{
+    @include color($rosa);
+}
+.rosa-bg{
+    @include bg($rosa);
+}
+.morado-color{
+    @include color($morado);
+}
+.morado-bg{
+    @include bg($morado);
+}
+.blanco-color{
+    @include color($blanco);
+}
+.blanco-bg{
+    @include bg($blanco);
+}
+.w-100{
+    width: 100%;
+}
+.mx-w-7 {
+    max-width: 70%;
+    @include tablet{
+        max-width: 90%;
+    }
+}
+.medium{
+    @include medium();
+}
+.light{
+    @include light();
+}
+.medium-light{
+    @include medium-light();
+}
+.mp-4{
+    padding-bottom: 4rem;
+}
+.mx-w-380{
+    max-width:380px;
+}
+.mx-w-300{
+    max-width:300px;
+}
+.center{
+    margin: 0 auto;
+    display: table;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+
+.texto {
+    p, ul li {
+        font-size: 1.5rem;
+        @include tablet{
+            font-size: 1.2rem;
+        }
+    }
+}
+.fs-22px{
+    font-size: 22px;
+}
+.fs-2-3rem{
+    font-size: 2.5rem;
+    @include tablet{
+        font-size: 1.5rem;
+    }
+}
+.pt-4{padding: 4rem 0 0 0;}
+.fs-2rem{font-size: 2rem;}
+.pbt-2{
+    padding: 2rem 0;
+}
+.fs-1-5rem{
+    font-size: 1.5rem;
+    @include tablet{
+        font-size: 1rem;
+    }
+}
+.none{
+    display: none;
+}
+.mtb-10{
+    margin: 10px 0;
+}
+.ml-2{
+    margin-left: 2rem;
+    @include tablet{
+        margin:0;
+    }
+}

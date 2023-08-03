@@ -1,0 +1,23 @@
+$blanco: #ffffff;
+$negro: #000000;
+$bg-color:#303030;
+$bg-black:#151515;
+$bg-color-lighten: lighten($bg-color, 74%);
+$bg-color-lighten-op2: lighten($bg-color,80%);
+$gris:#eeeeee;
+$rojo:#FF3E4C;
+$rosa:#E71D73;
+$morado:#4a52b4;
+$verde:#5EBF0A;
+$naranja:#FCA537;
+$azul:#5C7AED;
+$fuentePrincipal:'Montserrat', sans-serif;
+
+$light:300;
+$regular:400;
+$medium:600;
+$medium-bold:800;
+$black:900;
+
+$tablet:768px;
+$desktop:920px;

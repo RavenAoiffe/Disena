@@ -1,0 +1,28 @@
+{
+  "name": "disena-sitio",
+  "version": "1.0.0",
+  "description": "sitio disena cmm ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://AmeYanez@bitbucket.org/PublicacionesDigitalesCMM/sitio-disena.git"
+  },
+  "author": "Ameyalli Yanez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/PublicacionesDigitalesCMM/sitio-disena/issues"
+  },
+  "homepage": "https://bitbucket.org/PublicacionesDigitalesCMM/sitio-disena#readme",
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.64.1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
